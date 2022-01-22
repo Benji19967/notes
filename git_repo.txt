@@ -1,0 +1,13 @@
+How to create a new git repo locally and on GitHub from the command line
+
+1. Make sure gh (https://github.com/cli/cli) is installed
+2. Create a new directory
+3. cd to new directory
+4. git init
+5. git remote add origin git@github.com:Benji19967/<repo_name>.git
+6. git remote -v (should look like:
+    origin  git@github.com:Benji19967/<repo_name>.git (fetch)
+    origin  git@github.com:Benji19967/<repo_name>.git (push)	
+)
+7. git add and commit files
+8. git push -u origin master
