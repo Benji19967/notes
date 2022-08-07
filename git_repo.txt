@@ -2,6 +2,9 @@ How to create a new git repo locally and on GitHub from the command line
 
 Make sure gh (https://github.com/cli/cli) is installed
 gh repo create <repo_name>
+
+OR
+
 Create a new directory
 cd to new directory
 git init
