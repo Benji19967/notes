@@ -6,7 +6,7 @@
 
 ## NVIM setup
 
-- `:checkhealth`
+`:checkhealth`
 
 ## How to 
 
@@ -14,3 +14,8 @@
 
 ## NVIM packages repo locations:
 - "~/.local/share/nvim/site/pack/packer/start/"
+
+## Preview Markdow
+```bash 
+:Glow
+```
