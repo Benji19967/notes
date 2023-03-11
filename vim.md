@@ -8,6 +8,22 @@
 
 `:checkhealth`
 
+## NVIM LSP
+
+- `:LspInstallInfo`
+- `:LspInstall python`
+- `:LspInfo` 
+  - to show currently active LSP for file
+
+- Go to line with error:
+`gl`
+- Hover over code piece and get info on in
+`Shift+K`
+
+## NVIM comments
+- gcc -> one line comment
+- select visual + gc -> comment block
+
 ## How to 
 
 - Check keymaps.lua
