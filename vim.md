@@ -35,3 +35,9 @@
 ```bash 
 :Glow
 ```
+
+## NVIM error messages
+- `:messages`
+
+## NVIM Markdown Preview in browsers
+- `:MarkdownPreview`
