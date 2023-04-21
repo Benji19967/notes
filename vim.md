@@ -22,6 +22,8 @@
 
 - Duplicate lines matching a pattern
 `:g/pattern/copy .`
+- Indent all lines matching a pattern
+`:g/pattern/>`
 
 ## NVIM comments
 - gcc -> one line comment
