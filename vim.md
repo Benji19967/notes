@@ -20,6 +20,9 @@
 - Hover over code piece and get info on in
 `Shift+K`
 
+- Duplicate lines matching a pattern
+`:g/pattern/copy .`
+
 ## NVIM comments
 - gcc -> one line comment
 - select visual + gc -> comment block
