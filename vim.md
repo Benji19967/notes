@@ -20,6 +20,7 @@
 - Hover over code piece and get info on in
 `Shift+K`
 
+## Global `:g`
 - Duplicate lines matching a pattern
 `:g/pattern/copy .`
 - Indent all lines matching a pattern
@@ -27,6 +28,8 @@
 - Add new line after all lines matchin a pattern
 and insert text on that line
 `:g/pattern|copy .|s/.*/text to insert`
+- Indent lines containing multiple patterns 
+`:g/patter1\|pattern2/>`
 
 ## NVIM comments
 - gcc -> one line comment
