@@ -24,6 +24,9 @@
 `:g/pattern/copy .`
 - Indent all lines matching a pattern
 `:g/pattern/>`
+- Add new line after all lines matchin a pattern
+and insert text on that line
+`:g/pattern|copy .|s/.*/text to insert`
 
 ## NVIM comments
 - gcc -> one line comment
