@@ -6,6 +6,9 @@
  - [ ] Build a modern React app to interact with the database
  - [ ] Set up a linux server
  - [ ] Set up a Kubernetes cluster
+ - [ ] Make meaningful contributions to an open source project
+ - [ ] Become a core contributor or maintainer of an open source project
+ - [ ] (Optional) start your own open source project
  - [ ] Automate dev setup installation with Ansible
    - https://www.youtube.com/watch?v=gIDywsGBqf4&ab_channel=LearnLinuxTV
      - 33rd minute
