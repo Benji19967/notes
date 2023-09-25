@@ -1,5 +1,6 @@
 # Things to try out
 
+ - [ ] Try to solve some distributed systems problems on https://fly.io/dist-sys
  - [ ] Set up a database and host it somewhere
  - [ ] Build a CLI to interact with the database
  - [ ] Build an API infront of the database
