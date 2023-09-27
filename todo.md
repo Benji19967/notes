@@ -1,5 +1,9 @@
 # Things to try out
 
+ - [ ] Scrape the transcripts from https://signalsandthreads.com/ and store the data in a DB 
+ for further analysis
+   - [ ] Which words are used frequently?
+   - [ ] Which topics are discussed often?
  - [ ] Try to solve some distributed systems problems on https://fly.io/dist-sys
  - [ ] Set up a database and host it somewhere
  - [ ] Build a CLI to interact with the database
