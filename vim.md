@@ -57,3 +57,11 @@ and insert text on that line
 
 ## NVIM Markdown Preview in browsers
 - `:MarkdownPreview`
+
+## search and replace
+ - `:s/hello/world/g`: replace all instances of `hello` with `world` on current line
+ - `:%s/hello/world`: replace all instances of `hello` with `world`
+
+ ## record a macro and replay it
+- `q<where to store the macro>`, example `qj`
+- `@<where the macro was stored>`, example `@j`

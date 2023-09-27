@@ -11,3 +11,6 @@
 
 #### Display free disk space (`man df`)
 `df -h`
+
+### Timing CLI comands
+`hyperfine '<command>'`. Example: `hyperfine 'du -sh file.txt'`

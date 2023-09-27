@@ -9,3 +9,10 @@ brew install git-delta
 ```
 
 edit `~/.gitconfig` to your liking
+
+## Hyperfine
+
+https://github.com/sharkdp/hyperfine
+```bash
+brew install hyperfine
+```
