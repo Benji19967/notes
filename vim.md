@@ -31,13 +31,18 @@ and insert text on that line
 - Indent lines containing multiple patterns 
 `:g/patter1\|pattern2/>`
 
-## NVIM comments
-- gcc -> one line comment
-- select visual + gc -> comment block
-
 ## How to 
 
 - Check keymaps.lua
+
+### Move block of lines
+- Go into visual block mode (Ctrl + v) or visual line (Shift + v)
+- j/k to select lines
+- Shift + j/k: move selected lines up/down
+
+### Comment out line or block of lines
+- line: `gcc` or `Ctrl + /`
+- multi-line: `gc` or `Ctrl + /`
 
 ## NVIM packages repo locations:
 - "~/.local/share/nvim/site/pack/packer/start/"
