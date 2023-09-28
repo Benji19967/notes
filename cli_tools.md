@@ -16,3 +16,10 @@ https://github.com/sharkdp/hyperfine
 ```bash
 brew install hyperfine
 ```
+
+## Exa
+
+https://github.com/ogham/exa
+```bash
+brew install exa
+```
