@@ -15,7 +15,7 @@
 ### Timing CLI comands
 `hyperfine '<command>'`. Example: `hyperfine 'du -sh file.txt'`
 
-### fzf
+### fzf: https://thevaluable.dev/fzf-shell-integration/
 
 `Ctrl+r`: search history
 `Ctrl+t`: find all files and subdirectories and output selection to STDOUT
