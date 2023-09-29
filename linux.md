@@ -20,3 +20,4 @@
 `Ctrl+r`: search history
 `Ctrl+t`: find all files and subdirectories and output selection to STDOUT
 `Alt+c`: find all subdirectories and `cd` into selected one
+`fzf --preview="head -$LINES {}"`: find files with file preview!
