@@ -23,3 +23,17 @@ https://github.com/ogham/exa
 ```bash
 brew install exa
 ```
+
+## Dust
+
+https://github.com/bootandy/Dust
+```bash
+brew install dust
+```
+
+## Wiki-tui
+
+https://github.com/Builditluc/wiki-tui
+```bash
+cargo install wiki-tui
+```

@@ -4,6 +4,10 @@
 
 `Ctrl-^`
 
+## Getting help
+
+- `:help ...`
+
 ## NVIM setup
 
 `:checkhealth`
@@ -19,6 +23,8 @@
 `gl`
 - Hover over code piece and get info on in
 `Shift+K`
+- Show all references of code under cursor
+`gr`
 
 ## Global `:g`
 - Duplicate lines matching a pattern
@@ -31,9 +37,10 @@ and insert text on that line
 - Indent lines containing multiple patterns 
 `:g/patter1\|pattern2/>`
 
-## How to 
+## Keymaps
 
 - Check keymaps.lua
+- `:Telescope keymaps`
 
 ### Move block of lines
 - Go into visual block mode (Ctrl + v) or visual line (Shift + v)
@@ -65,3 +72,10 @@ and insert text on that line
  ## record a macro and replay it
 - `q<where to store the macro>`, example `qj`
 - `@<where the macro was stored>`, example `@j`
+
+## Git
+- `:Gitsigns diffthis`: show git diff
+
+## Nvim tree
+
+- `Ctrl+]`: make current folder root
