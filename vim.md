@@ -79,3 +79,8 @@ and insert text on that line
 ## Nvim tree
 
 - `Ctrl+]`: make current folder root
+
+## Open new buffer in split from Telescope
+- `Ctrl+v`: right/left split
+- `Ctrl+x`: top/bottom split
+
