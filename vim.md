@@ -26,6 +26,11 @@
 - Show all references of code under cursor
 `gr`
 
+## NVIM Lua
+
+- https://github.com/nanotee/nvim-lua-guide
+- `:help lua-guide`
+
 ## Global `:g`
 - Duplicate lines matching a pattern
 `:g/pattern/copy .`
@@ -68,6 +73,11 @@ and insert text on that line
 ## search and replace
  - `:s/hello/world/g`: replace all instances of `hello` with `world` on current line
  - `:%s/hello/world`: replace all instances of `hello` with `world`
+ - `:%s/\s+-->.*/`: delete `<whitespace>--><everything>` on all lines
+   - `%`: apply to all lines
+   - `\s+`: one or more whitespace characters
+   - `-->`: matches `-->` 
+   - `.*`: matches every character
 
  ## record a macro and replay it
 - `q<where to store the macro>`, example `qj`
@@ -84,3 +94,6 @@ and insert text on that line
 - `Ctrl+v`: right/left split
 - `Ctrl+x`: top/bottom split
 
+## Luasnip
+- `Tab`: next insertion
+- `Shift-Tab`: previous insertion
