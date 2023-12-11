@@ -97,3 +97,6 @@ and insert text on that line
 ## Luasnip
 - `Tab`: next insertion
 - `Shift-Tab`: previous insertion
+
+## Multi cursor
+- `Ctrl + up/down` add cursors
