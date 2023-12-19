@@ -21,3 +21,9 @@
 `Ctrl+t`: find all files and subdirectories and output selection to STDOUT
 `Alt+c`: find all subdirectories and `cd` into selected one
 `fzf --preview="head -$LINES {}"`: find files with file preview!
+
+### CPU Architecture
+
+- `uname -a` will give you your CPU Architecture
+  - aarch64 / arm64 --> 
+  - x86_64 / amd64  --> 64 bit Intel / AMD CPUs
