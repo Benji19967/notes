@@ -18,3 +18,7 @@ under /opt/homebrew/bin
 ## Turn off alert sound
 Turn alert volume all the way down in `Sound` > `Sound Effect` as explained here:
 https://apple.stackexchange.com/questions/384025/why-is-my-macbook-pro-beeping-when-performing-a-keyboard-shortcut
+
+## Get number of cores
+
+- `sysctl -n hw.ncpu`
