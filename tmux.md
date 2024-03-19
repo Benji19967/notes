@@ -18,8 +18,13 @@ There are four key tables:
 
 Use `list-key` / `lsk`:
 
-`tmux lsk -Tprefix`
-`tmux lsk -Tprefix -N`
+- `tmux lsk -T prefix`
+- `tmux lsk -T prefix -N`
+
+Some options:
+
+- `-T <key table to use>`
+- `-n` is an alias for `-T root`
 
 ### `bind` vs `bind-key`
 
