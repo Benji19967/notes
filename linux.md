@@ -27,3 +27,12 @@
 - `uname -a` will give you your CPU Architecture
   - aarch64 / arm64 --> 
   - x86_64 / amd64  --> 64 bit Intel / AMD CPUs
+
+### `locate`
+
+Searches pathnames in a Database based on a pattern. (`man locate`)
+
+Database may be out-of-date. It is updated daily or weekly.
+For real-time searches use `find`.
+
+`locate <filename>`
