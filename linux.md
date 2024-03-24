@@ -36,3 +36,7 @@ Database may be out-of-date. It is updated daily or weekly.
 For real-time searches use `find`.
 
 `locate <filename>`
+
+### Print directory structure
+
+- `tree -d . -L 3`: prints the directories of the current directory up to a depth of 3

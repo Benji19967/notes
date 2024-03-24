@@ -100,3 +100,7 @@ and insert text on that line
 
 ## Multi cursor
 - `Ctrl + up/down` add cursors
+
+## Delete line starting at cursor and paste without newline
+- `D`: delete from cursor position to end of line; without copying the newline char
+- `p`
