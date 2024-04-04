@@ -104,3 +104,7 @@ and insert text on that line
 ## Delete line starting at cursor and paste without newline
 - `D`: delete from cursor position to end of line; without copying the newline char
 - `p`
+
+## Folding
+- `set foldmethod=indent`
+- `za` to fold/unfold
