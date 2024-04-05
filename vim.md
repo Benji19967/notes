@@ -108,3 +108,7 @@ and insert text on that line
 ## Folding
 - `set foldmethod=indent`
 - `za` to fold/unfold
+
+## Show diagnostics box
+
+keymap is set in handlers.lua: `gl`
