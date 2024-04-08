@@ -112,3 +112,7 @@ and insert text on that line
 ## Show diagnostics box
 
 keymap is set in handlers.lua: `gl`
+
+## Piping some text / string into vim
+
+- `echo "Hi" | vim -`
