@@ -1,6 +1,6 @@
 # Git
 
-# Resolving merge conflicts
+## Resolving merge conflicts
 
 Suppose, 
 
@@ -18,3 +18,7 @@ git add <path-to-file>
 ```
 
 to keep local (`--ours`) or remote (`--theirs`) changes.
+
+## Recovering
+
+https://ohshitgit.com/
