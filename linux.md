@@ -40,3 +40,8 @@ For real-time searches use `find`.
 ### Print directory structure
 
 - `tree -d . -L 3`: prints the directories of the current directory up to a depth of 3
+
+### Reading `.h5` files (HDF)
+
+- `sudo apt install hdf5-tools` (Ubuntu)
+- `h5dump <path_to_h5_file`

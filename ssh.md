@@ -1,4 +1,6 @@
-Using GitHub through SSH
+# SSH
+
+## Using GitHub through SSH
 
 1. Check if you have an SSH key already:
 	cat ~/.ssh/id_rsa.pub
