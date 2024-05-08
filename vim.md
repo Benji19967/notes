@@ -116,3 +116,9 @@ keymap is set in handlers.lua: `gl`
 ## Piping some text / string into vim
 
 - `echo "Hi" | vim -`
+
+## Filetype specific settings
+
+- Example: different tabstop for `cpp` files:
+  - https://www.reddit.com/r/neovim/comments/vwsm89/different_tab_sizes_for_each_language/
+  - Add file `nvim/ftplugin/cpp.lua`
