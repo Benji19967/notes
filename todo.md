@@ -1,5 +1,6 @@
 # Things to try out
 
+ - [ ] Use `fish` shell
  - [ ] Scrape the transcripts from https://signalsandthreads.com/ and store the data in a DB 
  for further analysis
    - [ ] Which words are used frequently?

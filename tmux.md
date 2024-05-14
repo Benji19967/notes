@@ -1,5 +1,9 @@
 # TMUX
 
+## To try out 
+
+- `display-popup`
+  - https://www.reddit.com/r/unixporn/comments/18yqmgk/tmux_always_feared_tmux_finally_managed_to/
 
 ## Key Bindings
 
