@@ -37,3 +37,9 @@ https://github.com/Builditluc/wiki-tui
 ```bash
 cargo install wiki-tui
 ```
+
+## Htop
+https://github.com/htop-dev/htop
+```bash
+brew install htop
+```
