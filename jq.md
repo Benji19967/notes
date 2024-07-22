@@ -37,3 +37,7 @@
 ## Sort by value of key 'name'
 
 `... | jq 'sort_by(.name)'`
+
+Example:
+
+`gh repo list -L 100 --json name | jq  'sort_by(.name)'  | jq '..|objects|.name'`
