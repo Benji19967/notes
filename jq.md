@@ -32,4 +32,8 @@
 
 ## Get all key paths
 
-`...| jq 'paths | join(".")'`
+`... | jq 'paths | join(".")'`
+
+## Sort by value of key 'name'
+
+`... | jq 'sort_by(.name)'`
