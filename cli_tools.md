@@ -43,3 +43,9 @@ https://github.com/htop-dev/htop
 ```bash
 brew install htop
 ```
+
+## fd
+https://github.com/sharkdp/fd
+```bash
+brew install fd
+```
