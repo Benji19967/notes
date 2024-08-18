@@ -24,3 +24,9 @@ https://apple.stackexchange.com/questions/384025/why-is-my-macbook-pro-beeping-w
 ## Get number of cores
 
 - `sysctl -n hw.ncpu`
+
+## No auto-update brew 
+
+```bash 
+HOMEBREW_NO_AUTO_UPDATE=1 brew install <formula>
+```
