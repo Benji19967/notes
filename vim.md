@@ -122,3 +122,8 @@ keymap is set in handlers.lua: `gl`
 - Example: different tabstop for `cpp` files:
   - https://www.reddit.com/r/neovim/comments/vwsm89/different_tab_sizes_for_each_language/
   - Add file `nvim/ftplugin/cpp.lua`
+
+## Jump into LSP floating window
+
+Hover over function and press `Shift-k` twice. 
+To exit: press `Ctrl-k`
