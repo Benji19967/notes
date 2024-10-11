@@ -131,3 +131,7 @@ To exit: press `Ctrl-k`
 ## Highlighting on search
 
 `:noh` turn off highlighting until next search
+
+## Wrap line in Markdown
+
+`gww`
