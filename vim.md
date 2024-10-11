@@ -127,3 +127,7 @@ keymap is set in handlers.lua: `gl`
 
 Hover over function and press `Shift-k` twice. 
 To exit: press `Ctrl-k`
+
+## Highlighting on search
+
+`:noh` turn off highlighting until next search
