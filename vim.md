@@ -71,6 +71,7 @@ and insert text on that line
 - `:MarkdownPreview`
 
 ## search and replace
+### Option 1
  - `:s/hello/world/g`: replace all instances of `hello` with `world` on current line
  - `:%s/hello/world`: replace all instances of `hello` with `world`
  - `:%s/\s+-->.*/`: delete `<whitespace>--><everything>` on all lines
@@ -78,6 +79,13 @@ and insert text on that line
    - `\s+`: one or more whitespace characters
    - `-->`: matches `-->` 
    - `.*`: matches every character
+
+### Option 2
+ - hover over word
+ - `*`
+ - cgn
+ - `n`
+ - `.`
 
  ## record a macro and replay it
 - `q<where to store the macro>`, example `qj`
