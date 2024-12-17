@@ -45,3 +45,7 @@ For real-time searches use `find`.
 
 - `sudo apt install hdf5-tools` (Ubuntu)
 - `h5dump <path_to_h5_file`
+
+### Creating directories with incrementing ids
+
+`mkdir exercise_{01..15}`
