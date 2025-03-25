@@ -7,3 +7,11 @@ Changing keyboards shortcuts on MacOS:
 
 Search and replace:
 `Ctrl + Shift + F`
+
+## Useful extensions
+
+- autodocstring
+
+## Add snippets
+
+`Cmd + Shift + P`: Custom snippets
