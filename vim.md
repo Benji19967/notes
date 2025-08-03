@@ -72,6 +72,8 @@ and insert text on that line
 
 ## search and replace
 ### Option 1
+Shortcut: `Space + r`
+
  - `:s/hello/world/g`: replace all instances of `hello` with `world` on current line
  - `:%s/hello/world`: replace all instances of `hello` with `world`
  - `:%s/\s+-->.*/`: delete `<whitespace>--><everything>` on all lines
