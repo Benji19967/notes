@@ -146,6 +146,7 @@ To exit: press `Ctrl-k`
 
 `gww`
 
-## NerdTree
+## Nvim Tree
 
-- toggle show hidden: `Shift+I`
+- toggle show hidden: `Shift+H`
+- configs: `nvim-tree.lua`
