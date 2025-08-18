@@ -145,3 +145,7 @@ To exit: press `Ctrl-k`
 ## Wrap line in Markdown
 
 `gww`
+
+## NerdTree
+
+- toggle show hidden: `Shift+I`
