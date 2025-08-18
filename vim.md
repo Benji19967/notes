@@ -150,3 +150,7 @@ To exit: press `Ctrl-k`
 
 - toggle show hidden: `Shift+H`
 - configs: `nvim-tree.lua`
+
+## Null ls 
+- manual fix: https://github.com/nvimtools/none-ls.nvim/commit/0fa6ba7686c1f53a7ed8d5fd3d615f7e6be98743
+  - `~/.local/share/nvim/site/pack/packer/start/null-ls.nvim/lua/null-ls/client.lua`
