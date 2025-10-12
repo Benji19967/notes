@@ -2,7 +2,9 @@
 
 ## Find all directories matching the names `.venv` and `.poetry_venv` and delete them
 
+```shell
 fd -t d -IH "\.venv|\.poetry_venv" -X rm -rf
+```
 
 Explanation:
 
