@@ -9,6 +9,9 @@
 #### Display disk usage statistics (`man du`)
 `du -sh`
 
+#### Get the size of all directories and sort them
+`du -sh * | sort -h`
+
 #### Display free disk space (`man df`)
 `df -h`
 

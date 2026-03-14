@@ -30,3 +30,13 @@ https://apple.stackexchange.com/questions/384025/why-is-my-macbook-pro-beeping-w
 ```bash 
 HOMEBREW_NO_AUTO_UPDATE=1 brew install <formula>
 ```
+
+## Cleaning up memory
+
+Check `~/Library/`:
+
+```shell
+du -sh * | sort -h
+```
+
+Look for VMs (UTM, Parallels) or Containers.
