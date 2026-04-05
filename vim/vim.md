@@ -21,8 +21,10 @@
 
 - Go to line with error:
 `gl`
+
 - Hover over code piece and get info on in
 `Shift+K`
+
 - Show all references of code under cursor
 `gr`
 
@@ -89,16 +91,8 @@ Shortcut: `Space + r`
  - `n`
  - `.`
 
- ## record a macro and replay it
-- `q<where to store the macro>`, example `qj`
-- `@<where the macro was stored>`, example `@j`
-
 ## Git
 - `:Gitsigns diffthis`: show git diff
-
-## Nvim tree
-
-- `Ctrl+]`: make current folder root
 
 ## Open new buffer in split from Telescope
 - `Ctrl+v`: right/left split
@@ -108,16 +102,9 @@ Shortcut: `Space + r`
 - `Tab`: next insertion
 - `Shift-Tab`: previous insertion
 
-## Multi cursor
-- `Ctrl + up/down` add cursors
-
 ## Delete line starting at cursor and paste without newline
 - `D`: delete from cursor position to end of line; without copying the newline char
 - `p`
-
-## Folding
-- `set foldmethod=indent`
-- `za` to fold/unfold
 
 ## Show diagnostics box
 
@@ -145,11 +132,6 @@ To exit: press `Ctrl-k`
 ## Wrap line in Markdown
 
 `gww`
-
-## Nvim Tree
-
-- toggle show hidden: `Shift+H`
-- configs: `nvim-tree.lua`
 
 ## Null ls 
 - manual fix: https://github.com/nvimtools/none-ls.nvim/commit/0fa6ba7686c1f53a7ed8d5fd3d615f7e6be98743
