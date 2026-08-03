@@ -23,3 +23,20 @@ AGEBD_ENV=$2
 echo "${@:3}"
 ```
 
+## Variable exports
+
+```
+export $MY_ENV_VAR
+./bin/test_script_2.sh 
+```
+or 
+
+```
+export $MY_ENV_VAR
+./bin/test_script_2.sh 
+```
+
+test_script_2:
+```
+echo $MY_ENV_VAR
+```
