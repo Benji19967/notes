@@ -11,3 +11,15 @@ for i in 5 10 20; do echo $i; done
 ```bash
 for i in {5..20}; do echo $i; done
 ```
+
+## Use remaining input args
+
+```
+#!/bin/bash
+
+UI_FILENAME=$1
+AGEBD_ENV=$2 
+
+echo "${@:3}"
+```
+
