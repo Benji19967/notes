@@ -25,15 +25,27 @@ echo "${@:3}"
 
 ## Variable exports
 
+Note: `MY_ENV_VAR` is only set in the context of `script.sh` (i.e. it won't be 
+set in the shell that called `script.sh` once the script finishes running)
+
+`script.sh`:
 ```
-export $MY_ENV_VAR
+export MY_ENV_VAR=5
 ./bin/test_script_2.sh 
 ```
 or 
 
+`script.sh`:
 ```
-export $MY_ENV_VAR
+MY_ENV_VAR=5
+export MY_ENV_VAR
 ./bin/test_script_2.sh 
+```
+or 
+
+`script.sh`:
+```
+MY_ENV_VAR=5 ./bin/test_script_2.sh 
 ```
 
 test_script_2:
